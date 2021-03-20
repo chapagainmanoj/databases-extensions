@@ -5,7 +5,6 @@ An query building extensions for sqlalchey with encode/databases to apply pagina
 
 ```pip install databases-extensions```
 
-
 ## Example
 Construct page params
   ```python
@@ -15,6 +14,8 @@ Construct page params
   ```
 apply cursor pagination and get results
   ```python
+    from extensions import CursorPagination
+    ...
     query = example.select()
     pagination = CursorPagination(database, query)
     paginated = await pagination.page(page_params)
@@ -23,6 +24,8 @@ apply cursor pagination and get results
 apply filters, search, sorting or pagination and get query 
 
 ```
+    from extensions import query_builder
+    ...
     query = example.select()
     cursor_column="created_date"
     query = query_builder(query, page_params, cursor_column)
