@@ -45,9 +45,7 @@ setup(
     author_email="chapagainmanoj35@gmail.com",
     packages=get_packages("extensions"),
     data_files=[("", ["LICENSE.md"])],
-    install_requires=[
-        "databases",
-    ],
+    install_requires=["databases", "pydantic"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Environment :: Web Environment",
