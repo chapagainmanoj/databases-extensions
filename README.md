@@ -3,7 +3,7 @@ Pagination, filter, search and sorting extensions for sqlalchey with encode/data
 
 ## Installation
 
-```pip install databases-query-extensions```
+```pip install databases-extensions```
 
 
 ## Example
