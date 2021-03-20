@@ -1,5 +1,5 @@
 # databases-query-extensions
-Pagination, filter, search and sorting extensions for sqlalchey with encode/databases
+An query building extensions for sqlalchey with encode/databases to apply pagination, filter, search and sorting to query
 
 ## Installation
 
