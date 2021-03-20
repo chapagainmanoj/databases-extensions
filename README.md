@@ -13,7 +13,7 @@ Construct page params
         first=3, filter={"completed.is_true": ""}
     )
   ```
-apply pagination and get results
+apply cursor pagination and get results
   ```python
     query = example.select()
     pagination = CursorPagination(database, query)
