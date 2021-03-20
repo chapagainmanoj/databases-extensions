@@ -33,7 +33,7 @@ def get_packages(package):
 
 
 setup(
-    name="extensions",
+    name="databases-extensions",
     version=get_version("extensions"),
     python_requires=">=3.6",
     url="https://github.com/chapagainmanoj/databases-query-extension",
