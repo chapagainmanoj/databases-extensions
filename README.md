@@ -30,7 +30,7 @@ apply filters, search, sorting or pagination and get query
 
   A complete query params example
 ```python
-"params": {
+{
     "first": 100,
     "after": <cursor>,
     "afterWith": <cursor>,
