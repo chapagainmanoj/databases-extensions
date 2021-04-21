@@ -42,8 +42,7 @@ apply filters, search, sorting or pagination and get query
       "value": "new"
     },
     "filter": {
-      "conversationType.eq": "Call"
-      "conversationStatus.eq": "NoAanswer"
+      "status.eq": "Pending"
     },
     "sort": "createdAt",
     "order": "asc"
